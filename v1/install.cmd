@@ -1,1 +1,0 @@
-pyinstaller -i favicon.ico --onefile Bartender-Log-Renamer.py
