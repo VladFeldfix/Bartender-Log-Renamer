@@ -18,7 +18,10 @@ class main:
         self.sc.test_path(self.main_path)
 
         # display main menu
-        self.sc.start()
+        try:
+            self.sc.start()
+        except Exception as e:
+            print(str(e))
     
     def run(self):
         try:
